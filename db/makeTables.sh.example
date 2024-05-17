@@ -1,0 +1,1 @@
+psql -h localhost -p 5430 -f ./make_tables.sql -U postgres

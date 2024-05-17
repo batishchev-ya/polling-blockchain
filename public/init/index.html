@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link href="init/index.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <script type="text/javascript" src="init/index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <label for="accountAddress">Address</label>
+      <textarea name="accountAddress" id="accountAddress" ></textarea>
+      <!-- <input id="address" type="text"/>  -->
+    </div>
+    <div class="container">
+      <label for="tokenAddresses">ERC20 Token Addresses List</label>
+      <textarea name="tokenAddresses" id="tokenAddresses" ></textarea>
+      <!-- <input id="tokenAddresses" type="text"/>  -->
+    </div>
+    <div class="container">
+      <label for="telegramBotAPIKey">Telegram Bot API</label>
+      <textarea name="telegramBotAPIKey" id="telegramBotAPIKey" ></textarea>
+      <!-- <input id="telegramBotAPIKey" type="text"/>  -->
+    </div>
+    <div class="container">
+      <label for="telegramChannelID">Telegram Channel ID</label>
+      <textarea name="telegramChannelID" id="telegramChannelID" ></textarea>
+      <!-- <input id="telegramChannelID" type="text"/>  -->
+    </div>
+    <div class="container">
+      <label for="updateTimeout">Polling time (in minutes)</label>
+      <input id="updateTimeout" type="text"/> 
+    </div>
+    <div>
+      <button id="startButton">Start</button>
+      <button id="stopButton">Stop</button>
+    </div>
+    <div id="state-wrapper">
+      <button id="balanceButton">Get state</button>
+      <!-- <div id="tokenAccount-0">sdfsdf</div> -->
+      <div id="stateInfo">
+
+      </div>
+      <div id="accountInfo">
+
+      </div>
+      <div id="tokensInfo">
+
+      </div>
+    </div>
+  </body>
+</html>

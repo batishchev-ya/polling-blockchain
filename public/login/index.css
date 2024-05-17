@@ -1,0 +1,11 @@
+.container {
+  width: 600px;
+  /* display: flex; */
+  /* justify-content: space-between; 
+  align-items: center;  */
+  margin-bottom: 10px; 
+  textarea {
+    width: 360px;
+    height: 100px;
+  }
+}
